@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavbarComponent} from './components/navbar/navbar.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
-import { AboutComponent } from './components/home/about.component';
-import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/pages/about.component';
+import { HomeComponent } from './components/pages/home.component';
+import { routing } from './app.routing';
 
 @NgModule({
-    imports: [ BrowserModule],
+    imports: [ BrowserModule, routing],
     declarations: [AppComponent, NavbarComponent, JumbotronComponent, HomeComponent],
     bootstrap: [AppComponent]
 })
