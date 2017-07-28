@@ -9,7 +9,7 @@ import { routing } from './app.routing';
 
 @NgModule({
     imports: [ BrowserModule, routing],
-    declarations: [AppComponent, NavbarComponent, JumbotronComponent, HomeComponent],
+    declarations: [AppComponent, NavbarComponent, JumbotronComponent, HomeComponent, AboutComponent],
     bootstrap: [AppComponent]
 })
 
